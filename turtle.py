@@ -58,7 +58,6 @@ def square():
 
 def hexagon():
   turtle.penup()
-  #turtle.forward(30)
   turtle.right(60)
   turtle.pendown()
   turtle.color("purple","purple")
@@ -69,7 +68,6 @@ def hexagon():
     turtle.left(60)
   turtle.end_fill()
   turtle.penup()
-  #turtle.right(90)
   turtle.forward(100)
   turtle.color("black")
   turtle.write("It's a purple hexagon!", font=("Verdana", 10, "normal"))
